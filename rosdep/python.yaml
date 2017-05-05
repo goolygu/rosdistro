@@ -1400,6 +1400,10 @@ python-networkx:
     yakkety_python3: [python3-networkx]
     zesty: [python-networkx]
     zesty_python3: [python3-networkx]
+python-networkx-pip:
+  ubuntu:
+    pip:
+      packages: [networkx]
 python-nose:
   arch: [python2-nose]
   debian: [python-nose]
@@ -2396,6 +2400,10 @@ python-scipy:
     wily_python3: [python3-scipy]
     xenial: [python-scipy]
     xenial_python3: [python3-scipy]
+python-scipy-pip:
+  ubuntu:
+    pip:
+      packages: [scipy]
 python-selenium-pip:
   ubuntu:
     pip:
@@ -2591,6 +2599,10 @@ python-sklearn:
     vivid: [python-sklearn]
     wily: [python-sklearn]
     xenial: [python-sklearn]
+python-sklearn-pip:
+  ubuntu:
+    pip:
+      packages: [scikit-learn]
 python-slackclient-pip:
   debian:
     pip:
